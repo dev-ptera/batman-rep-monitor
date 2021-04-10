@@ -1,0 +1,180 @@
+@font-face {
+  font-family: batman;
+  src: url(batman.ttf);
+}
+
+body {
+	padding-top: 120px;
+	min-height: 100vh;
+	min-width: 100vw;
+	box-sizing: border-box;
+	background: #495057 url('./../../../img/nano.png') center right no-repeat fixed;	
+	color: #f9f9f9;
+    overflow-x: hidden;
+} 
+
+
+.page-header {
+	background-color: #212121;
+	padding: 32px;
+	color: white;
+	border-radius: 4px;
+}
+.page-header p {
+	margin-bottom: 0;
+	font-size: 14px;
+	margin-top: -8px;
+	font-family: monospace;
+}
+.page-header .lead {
+	margin-top: 32px!important;
+	margin-bottom: 0px;
+	font-weight: 600;
+	font-size:  48px;
+	font-family: batman;
+}
+
+#banner > div {
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	text-align: center;
+} 
+
+#banner {
+	position: relative;
+	min-height: 240px;
+	padding-bottom: 64px;
+	margin-bottom: 40px!important;
+	background-image: url('./../../../img/gothem-city.jpg');
+	background-size: contain;
+	   color: white;
+	   text-shadow:
+	       1px  1px 0 #495057,
+	      -1px -1px 0 #495057,  
+	       1px -1px 0 #495057,
+	      -1px  1px 0 #495057,
+	       1px  1px 0 #495057;
+}
+@media only screen and (max-width: 750px) {
+	#banner {
+		background-image: url('./../../../img/gothem-city-short.jpg');
+	}
+}
+
+@media only screen and (max-width: 1201px) {
+	#banner {
+		background-size: cover;
+	}
+}
+
+#banner .row img {
+	display: none; // hide banano image
+}
+#banner .btn-group {
+	border: solid 1px #cecece;
+	border-radius: 4px;
+}
+#banner .row {
+	position: initial;
+}
+
+#banner .row div {
+	position: initial;
+}
+#banner .row .mb-3 {
+	position: absolute;
+	margin-top: 8px;
+	right: 16px;
+	bottom: 0;
+}
+#monkey {
+	display: none!important;
+}
+
+.n-navbar-theme {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.02rem;
+    font-weight: 400; 
+    background-color: #212121;
+    color: white; 
+    padding: 16px 16px;
+	border-bottom: solid 1px  #495057;
+}
+.n-navbar-theme a, .n-logo-theme {
+	color: white;
+}
+
+.n-pullUp:hover { 
+    color: #ffffff;
+    width: 100%;
+    height: 100%; 
+    content: '';
+    background: #0f1121;
+    opacity: 1;
+    transition: all 0s;
+}
+
+.n-text-theme {gotham city colors
+    color: #0f1121!important;
+}
+
+.n-h2-theme {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+    font-weight: 400;
+    max-width: 930px;
+}
+
+.n-h3-theme {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    max-width: 930px;
+}
+
+.n-p-theme {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.02em;
+}
+
+.n-address-theme {
+    background-color: #ffffff!important;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #000034;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card {
+	background-color: unset!important;
+}
+
+.list-group {
+	background-color: #5a5a5a;
+	color: white;
+	border-radius: 4px;
+}
+.list-group-item {
+	background-color: unset;
+	border-bottom: solid 1px #495057;	
+}
+
+a, .btn-link, a:hover {
+color: #92bbe6;
+
+}
+#footer a {
+	color: #92bbe6;
+}
