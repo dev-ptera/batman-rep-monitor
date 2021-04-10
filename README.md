@@ -2,10 +2,8 @@
 
 This repo has the custom node monitor styles for the [banano batman representative](http://108.39.249.5/).
 
-**Note to self for future migrations**
-
 This node monitor is set up using the *manual* Nano Node Monitor integration guide, found [here](
-https://github.com/NanoTools/nanoNodeMonitor)s.
+https://github.com/NanoTools/nanoNodeMonitor).
 
 ## Setup Nginx
 
