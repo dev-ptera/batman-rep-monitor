@@ -1,4 +1,4 @@
-## Batman Representative
+## Batman Representative Node Monitor
 
 This repo has the custom node monitor styles for the [banano batman representative](http://108.39.249.5/).
 
