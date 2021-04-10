@@ -1,6 +1,6 @@
 ## Batman Representative
 
-This repo has the custom node monitor styles for the batman representative.
+This repo has the custom node monitor styles for the [banano batman representative](http://108.39.249.5/).
 
 **Note to self for future migrations**
 
@@ -17,9 +17,9 @@ Not all the steps are required, so I've compressed the required steps into the c
 ```ts
 sudo apt-get update
 sudo apt-get install nginx
-sudo ufw allow 'Nginx HTTP'
 sudo apt-get install php-fpm php-mysql
-sudo apt install php-curl
+sudo apt-get install php-curl
+sudo ufw allow 'Nginx HTTP'
 ```
 
 ## Replace Default Nginx Settings
@@ -29,7 +29,7 @@ Replace the default `sites-available` file with the file found in this repo, and
 ```
 cd etc/nginx/sites-available
 sudo chmod -R 777 *
-[Update IP in etc/nginx/sites-availbale]
+[Update IP in etc/nginx/sites-available]
 sudo systemctl reload nginx
 ```
 
@@ -59,7 +59,7 @@ In summary these commands:
 
 ## Add Batman theme customization
 
-Replace the content found within the cloned monitor tool with the content found in this repo.
+Replace the content found within the default nano monitor tool with the content found in this repo.
 
 Add customizations as needed. 
 
