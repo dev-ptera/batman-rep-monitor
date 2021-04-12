@@ -1,6 +1,6 @@
 ## Batman Representative Node Monitor
 
-This repo has the custom node monitor styles for the [banano batman representative](http://108.39.249.5/).
+This repo contains custom node monitor styles for the [banano batman representative](http://108.39.249.5/).
 
 This node monitor is set up using the *manual* Nano Node Monitor integration guide, found [here](
 https://github.com/NanoTools/nanoNodeMonitor).
