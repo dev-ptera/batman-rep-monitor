@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="static/css/fontawesome-all.min.css?v=<?php echo PROJECT_VERSION; ?>" media="screen">
         <link rel="stylesheet" href="static/css/main.css?v=<?php echo PROJECT_VERSION; ?>" media="screen">
         <link rel="stylesheet" href="static/themes/<?php echo $themeChoice; ?>/css/theme.css?v=<?php echo PROJECT_VERSION; ?>" media="screen">
-        <link rel="icon" href="static/img/batman-logo.jpg">
+        <link rel="icon" href="static/img/batman-logo.png">
         <meta property="og:title" content="<?php echo currencyName($currency); ?> Node Monitor - <?php echo $nanoNodeName; ?>">
         <meta property="og:description" content="Nano Node Monitor">
         <meta property="og:type" content="website">
