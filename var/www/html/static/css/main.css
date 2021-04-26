@@ -1,0 +1,80 @@
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.float-left-truncate
+{
+    float: left;
+    margin-right: auto;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50%;
+}
+
+
+.float-right-truncate
+{
+    float: right;
+    margin-left: auto;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50%;
+}
+
+.myError
+{
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 30px;
+}
+
+.coinmarketcap-currency-widget div > span
+{
+    color: white;
+}
+
+.coinmarketcap-currency-widget div > span:last-child
+{
+    color: #7c7c7e !important;
+}
+
+.coinmarketcap-currency-widget > div > div:nth-child(2) > div
+{
+    color: #dddddd;
+}
+
+#footer ul
+{
+    text-align: right;
+    letter-spacing: 0.02em;
+    list-style: none;
+    padding-right: 10px;
+}
+
+/* Quick and dirty style overrides */
+#content:nth-child(2) .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    #content:nth-child(2) .col-lg-3 {
+        flex: unset;
+        max-width: unset;
+    }
+}
+
+#navbarResponsive {
+    display: none!important;
+}
+
+.navbar-brand img {
+    margin-right: 16px;
+}
